@@ -1,0 +1,11 @@
+<h1>Edit a character</h1>
+
+<form method="POST" action="/characters/<%= character.id %> /edit">
+      <input type="text" name="name"   placeholder="name" value="<%- character.name %>"  > 
+      <input type="text" name="occupation"  placeholder="occupation" value="<%- character.occupation %>" >
+      <input type="text" name="weapon"  placeholder="weapon" value="<%- character.weapon %>"   > 
+
+      <button> Update </button>
+    </form>
+
+
